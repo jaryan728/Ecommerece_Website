@@ -1,0 +1,157 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        display: flex;
+        font-size: 1rem;
+        
+    }
+    .s1 ,.s2{
+        display: flex;
+    }
+    .box1,.s2{
+        margin: 0px;
+    }
+    .box1 img{
+        width:100px;
+    }
+    .box2 {
+        padding: 4px;
+        margin :1px;
+    }
+    .box3{
+        margin :0px 0 ;
+       
+    }
+    .i{
+        margin: 0 ;
+    }
+    /* main */
+    main{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        margin: 0 rem;
+        flex-direction: column-reverse;
+    }
+    .box5{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .box5 div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .box5 .txt{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        padding: 10px;
+        
+    }
+    .box5 h3{
+text-align: center;
+padding: 10 px;
+font-weight: lighter;
+    }
+    p{
+        font-size: 1rem;
+        padding: 10 px;
+        text-align: center;
+       
+    }
+    .btn{
+        height:50px;
+        background-image:url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/leaves-free-img.png);
+        background-repeat: no-repeat;
+    }
+    .box4 {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px;    }
+.box4 img{
+    width: 400px;
+}
+/* first section black part */
+.box6{
+    background-color: black;
+    height: 800px;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-row-gap: 20px
+}
+/* section a2 */
+.child3 h1,.a4 h1,.reviews h1{
+    font-size: 1rem;
+    
+}
+.child4{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 70px;
+}
+.child4 img{
+    width: 400px;
+}
+/* section a3 */
+.child6{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+    background-color: rgb(237, 228, 217);
+    padding: 30px;
+}   
+.child6 .baby1{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* section a4 */
+.a4{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.a4 div{
+    /* padding: 30px; */
+    margin: 10px;
+}
+.a5 div{
+    font-size: 1rem;
+}
+.a2,.child3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.r{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px;
+    padding: 50px;
+
+}
+.r4{
+    display:grid;
+    grid-template-columns: auto auto ;
+    grid-column-gap: 30px;
+    
+}
+.last{
+    background-color: rgb(6, 6, 39);
+display: flex;
+flex-direction: column;
+color: azure;}

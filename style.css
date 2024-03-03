@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    /* width: 25vh; */
+    font-size: 1.5em;
+    
+}
+.s1 ,.s2{
+    display: flex;
+}
+.s2{
+margin: 0 200px;}
+.box1{
+    margin: 30px;
+}
+.box2 {
+    padding: 5px;
+    margin :35px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.box3{
+    margin :35px 0 ;
+   
+}
+.i{
+    margin: 10px 30px ;
+}
+.cart{
+    color: gold;
+}
+main{
+    /* height: 35vw; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: 5rem;
+
+}
+.box5{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+   
+}
+.box5 .txt{
+    font-size: 4rem;
+    
+}
+p{
+    font-size: 1.5rem;
+    padding: 20px;
+   
+}
+.btn{
+    height:200px;
+    background-image:url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/leaves-free-img.png);
+    background-repeat: no-repeat;
+    /* padding: 30px; */
+    /* opacity: 0.3; */
+}
+button{
+    padding: 15px;
+    display: flex;
+align-items: center;
+justify-content: center;
+    width: 180px;
+    background-color:rgb(55, 199, 55);
+    color: white;
+    border-radius: 10px;
+}
+button img
+{
+margin: 0 12px;}
+.box6{
+    background-color: black;
+    height: 10vw;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px
+}
+.p1{
+    background-color: rgba(75, 65, 65, 0.547);
+    display: flex;
+    color:white;
+    padding: 15px;
+}
+.p1 img{
+    background-color: yellow;
+    /* padding: 1px; */
+    height: 25px;
+}
+.child2{
+    padding: 20px;
+}
+.a2,.child3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+.child3 h1,.a4 h1,.reviews h1{
+    font-size: 3rem;
+    
+}
+.child4{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 70px;
+}
+.child4 img{
+    width: 250px;
+}
+.child5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.child6{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 15px;
+    background-color: rgb(237, 228, 217);
+    padding: 50px;
+}
+.child6 .baby1{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.child6 img{
+    width: 100px;
+}
+.a4{
+    display: flex;
+    background-color: black;
+    color: white;
+    /* padding: 25px; */
+}
+.a4 div{
+    /* padding: 30px; */
+    margin: 65px;
+}
+.a5{
+    background-color: rgb(237, 228, 217);
+}
+.a5 div{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 40px;
+}
+.reviews{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+grid-row-gap: 20px;
+}
+.r{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    padding: 50px;
+
+}
+.r1,.r2,.r3
+    {
+        border: 2px solid gainsboro;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: smaller;
+       
+}
+.r2{
+    height: 510px;
+    position: relative;
+    color: white;
+}
+.r2 h1{
+    text-align: center;
+}
+.r2::before{
+    content:'';
+    background: url("https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/sydney-rae-668606-unsplash.jpg");
+    position: absolute;
+    background-size: cover;
+   height:100%;
+   width:100%;
+    z-index: -1;
+    opacity: 0.44;
+    transition: opacity 0.3s ease-in-out;]
+}
+.r2:hover::before{
+    opacity: 0.8;
+}
+.r1,.r3{
+    position: relative;
+    top: 30px;
+    height: 480px;
+}
+.star{
+    width: 150px;
+
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile img{
+    padding: 15px;
+}
+.r1 p,.r2 p,.r3 p{
+    text-align: center;
+}
+.r4{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+    grid-column-gap: 30px;
+    
+}
+.r4 h1
+{
+text-align: center;
+margin: 25px auto;
+
+}
+.last{
+    background-color: rgb(6, 6, 39);
+display: flex;
+color: azure;}
+
+.l1{
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    
+} 
+.l1 li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.l1 li{
+    padding: 4px;
+    margin: 4px;
+list-style: none;}
+.l1 div{
+    padding: 10px;
+}
+.play{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+footer{
+    background-color: rgb(6, 6, 39);
+display: flex;
+    color: white;
+}
+.t1{
+    padding: 20px;
+}
+.t2{
+   display: flex;
+}
+/* hover properties */
+.box2 a:hover{
+    color: rgb(167, 145, 22);
+}
+button:hover{
+    background-color: rgb(140, 172, 93);
+    cursor: grab;
+    
+}
